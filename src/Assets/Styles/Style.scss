@@ -1,0 +1,64 @@
+@import "Variables";
+h4{
+    @media (max-width:768px){
+        font-size:1.2rem!important;  
+    }
+    @media (max-width:576px){
+        font-size:1.2rem!important;  
+    } 
+}
+.eq-logo{
+    width:200px;
+    @media (max-width:768px){
+        width:150px;  
+    }
+    @media (max-width:576px){
+        width:150px;  
+    }
+}
+.cursor-pointer{
+    cursor: pointer!important;
+}
+.bg-img{
+    background:url("#{$img-path}LoginSpotlight.jpg") 50% 0% no-repeat;
+    background-size: 250%;
+    @media (max-width:768px){
+        background-size:cover;  
+    }
+}
+.bg-img-form{
+    background:url("#{$img-path}LoginSpotlightLogo.png") 56% 27% no-repeat;
+    background-size:160%;
+}
+.full-width{
+    width:100%;
+    height: 100vh;
+    @media (max-width:768px){
+        height:100vh!important;  
+    }
+    @media (max-width:740px){
+        height:auto!important;  
+    }
+    @media (max-width:480px){
+        height:100vh!important;  
+    }
+}
+.form-input-text{
+    border-radius: 0px;
+    border:2px solid #000;
+}
+.theme-font-color{
+    color: $theme-color-1!important;
+}
+.theme-bg{
+    background-color: $theme-color-1!important;
+}
+.width-resp{
+    width:50%;
+    @media (max-width:768px){
+        width:75%;  
+    }
+    @media (max-width:576px){
+        width:100%;  
+    }
+}
